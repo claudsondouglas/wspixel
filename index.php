@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste do wspixel</title>
     <script src="./wspixel.js"></script>
+    <script>
+        wspixel.init('site');
+    </script>
 </head>
 <body>
     <pre style="background-color: #eee; margin-bottom: 1rem; padding: 1rem;"><?php 

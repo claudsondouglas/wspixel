@@ -71,5 +71,3 @@ const wspixel = (function () {
         }
     }
 })();
-
-wspixel.init('site');

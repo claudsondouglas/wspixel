@@ -5,14 +5,18 @@ A ideia principal foi criar um módulo javascript que seja fácilmente integrado
 ### Insira na tag `<head>`
 ```html
 <head>
-<script src="/path/to/wspixel.js"></script>
+  <script src="wspixel.js"></script>
+  <script>
+      wspixel.init('site');
+  </script>
 </head>
 ```
 
 ### se você usa algum bundler como `webpack` etc
 
 ```javascript
-require 'path/to/wspixel.js';
+const wspixel = require ('../../../wspixel/wspixel.module')
+wspixel.init('site/blog')
 ```
 
 ### Na pagina de `processar a cotação` e salvar o lead
