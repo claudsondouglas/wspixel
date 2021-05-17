@@ -12,7 +12,7 @@ A ideia principal foi criar um módulo javascript que seja fácilmente integrado
 </head>
 ```
 
-### se você usa algum bundler como `webpack` etc
+### Se você usa algum bundler como `webpack` etc
 
 ```javascript
 const wspixel = require ('path/to/wspixel.module')
