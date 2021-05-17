@@ -15,7 +15,7 @@ A ideia principal foi criar um módulo javascript que seja fácilmente integrado
 ### se você usa algum bundler como `webpack` etc
 
 ```javascript
-const wspixel = require ('../../../wspixel/wspixel.module')
+const wspixel = require ('path/to/wspixel.module')
 wspixel.init('site/blog')
 ```
 
